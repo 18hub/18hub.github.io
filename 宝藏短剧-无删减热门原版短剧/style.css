@@ -839,7 +839,36 @@ input.button {color:#FFFFFF; font-size:14px; width:100px; height:32px; backgroun
 
 .gengxin { font-size:18px; color:#ff9168; font-weight:700; margin-top:20px; }
 
-.articleTitle{ font-size: 18px; font-weight: 600; color: #2e78ba;}
+.articleTitle{ 
+    display: flex;
+    height: 32px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-weight: 600;
+    color: #fa705e;
+    letter-spacing: 2px;
+    padding-left: 6px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+.articleTitle::before{
+    content: '';
+    width: 8px;
+    height: 20px;
+    background-color: #fa785e;
+    margin-right: 10px;
+    display: inline-block;
+    outline: 0!important;
+}
+.articleTitle:hover{
+    transform: translateX(20px);
+}
+.articleTitle:hover::before{
+    box-shadow: #ffc3b7 -7px 0 0px;
+}
 .articleText{ font-size: 13px; color: #565656;}
 .articleLinkLine{ width: 100%;}
 .articleLink{transition: all 0.3s; display: flex;align-items: center;justify-content: center; padding: 10px 20px;border-radius: 10px;font-size: 16px;letter-spacing: 4px; background-color: #ff9168; color: #fff;}
@@ -848,5 +877,7 @@ input.button {color:#FFFFFF; font-size:14px; width:100px; height:32px; backgroun
 .fireLi{display: flex; align-items: center;}
 .fireIcon{display: inline-block;width: 30px;height: 30px;background-size: 60% 60%;background-repeat: no-repeat; background-position: center;background-image: url('https://gitcode.net/2301_78006839/wxpj/-/raw/master/img/web/favion_64.png?inline=false');}
 .fireLink{display: inline-block;height: 30px;line-height: 30px;}
+.fireLink:hover{text-decoration: none; color: #d42b11;}
 
 .relativeLink{color: #d42b11;}
+
