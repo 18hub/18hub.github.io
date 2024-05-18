@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-    color: #0c83e8;
+    color: #ff9168;
 }
 
 .container {
@@ -318,7 +318,7 @@ textarea {
 .th_header {
     height: 45px;
     line-height: 45px;
-    background-color: #0c83e8;
+    background-color: #ff9168;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
     display: none;
 }
@@ -363,9 +363,9 @@ textarea {
 .search-top{margin-top:10px;}
 .search{text-align:center;}
 .search-img{ max-width:150px;margin:0 auto;}
-.search-title{font-size:30px;color:#0c83e8;font-weight:700;margin-top:20px;}
-.search-input{text-align:left;padding:5px 10px;border: 2px solid #0c83e8;border-radius: 3px 0px 0px 3px;font-size:16px;width:60%;}
-.search-sub{padding:5px 10px;border: 2px solid #0c83e8;border-radius:3px;font-size:16px;background-color: #0c83e8;color:#fff;cursor: pointer;}
+.search-title{font-size:30px;color:#ff9168;font-weight:700;margin-top:20px;}
+.search-input{text-align:left;padding:5px 10px;border: 2px solid #ff9168;border-radius: 3px 0px 0px 3px;font-size:16px;width:60%;}
+.search-sub{padding:5px 10px;border: 2px solid #ff9168;border-radius:3px;font-size:16px;background-color: #ff9168;color:#fff;cursor: pointer;}
 .search-sub:hover{background-color: #0b73cc;}
 /* sou index con start*/
 .sou-con{
@@ -377,12 +377,12 @@ textarea {
     line-height:50px;
     font-size:18px;
     font-weight:700;
-    color: #0c83e8;
+    color: #ff9168;
     padding-left:15px;
     border-bottom: 1px solid #EDEDED;
 }
 .sou-con-title.top{
-    color: #0c83e8;
+    color: #ff9168;
 }
 .sou-con-list{
     padding:15px 15px;
@@ -407,7 +407,7 @@ textarea {
     color: #525252;
     transition: 0.3s ease-out;
 }
-.sou-con-list ul li a:hover{color: #0c83e8;}
+.sou-con-list ul li a:hover{color: #ff9168;}
 .sou-con-list ul li span{margin-right:10px;}
 .sou-con-list ul li span.date {
     float: right;
@@ -447,11 +447,11 @@ textarea {
 }
 
 .th_page_color a:hover {
-    background-color: #0c83e8;
+    background-color: #ff9168;
 }
 
 .th_page_color span.now-page {
-    background-color: #0c83e8;
+    background-color: #ff9168;
 }
 
 /* page ?????? */
@@ -533,7 +533,7 @@ textarea {
 
 .detail-arr-left a:hover,
 .detail-arr-right a:hover {
-    color: #0c83e8;
+    color: #ff9168;
 }
 .umCopyright {
     line-height: 22px;
@@ -833,16 +833,16 @@ input.button {color:#FFFFFF; font-size:14px; width:100px; height:32px; backgroun
 
 .saying span a { color: #de1513; }
 
-.my-link { color: #0c83e8; }
+.my-link { color: #ff9168; }
 
 .tuijian { width: 28px; height: 28px; vertical-align: middle; }
 
-.gengxin { font-size:18px; color:#0c83e8; font-weight:700; margin-top:20px; }
+.gengxin { font-size:18px; color:#ff9168; font-weight:700; margin-top:20px; }
 
 .articleTitle{ font-size: 18px; font-weight: 600; color: #2e78ba;}
 .articleText{ font-size: 13px; color: #565656;}
 .articleLinkLine{ width: 100%;}
-.articleLink{transition: all 0.3s; display: flex;align-items: center;justify-content: center; padding: 10px 20px;border-radius: 10px;font-size: 16px;letter-spacing: 4px; background-color: #0c83e8; color: #fff;}
+.articleLink{transition: all 0.3s; display: flex;align-items: center;justify-content: center; padding: 10px 20px;border-radius: 10px;font-size: 16px;letter-spacing: 4px; background-color: #ff9168; color: #fff;}
 .articleLink:hover{text-decoration: none; color: #fff; font-size: large;}
 
 .fireLi{display: flex; align-items: center;}

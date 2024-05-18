@@ -1129,6 +1129,7 @@
 .fa-toggle-right:before,
 .fa-caret-square-o-right:before {
   content: "\f152";
+  color: #ff9168;
 }
 .fa-euro:before,
 .fa-eur:before {
